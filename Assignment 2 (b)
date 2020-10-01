@@ -1,8 +1,14 @@
 #include <stdio.h>
 void main()
 {
-  char name[]="Buddy",favfood[]="pedigree";
-  int a=10;
+  char name[],favfood[];
+  int a;
+  printf("Enter pet name: \n");
+  scanf("%s",name);
+  printf("Enter fav food:\n");
+  scanf("%s",favfood);
+  printf("Enter age\n");
+  scanf("%d",&a);
   printf("My pet's name is %s\n",name);
   printf("It is %d years old\n", a);
   printf("Its favourite food is %s\n",favfood);
