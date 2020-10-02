@@ -13,7 +13,7 @@ int main()
   printf("Chemistry Mark:\n",mark2);
   scanf("%lf",&mark2);
   sum= mark1 + mark2;
-  printf("The sum is %f\n",sum);
+  printf("The sum is  %f\n",sum);
   av=sum/2;
   /* to calculate average*/
   printf("The average is %f\n",av);
