@@ -8,6 +8,7 @@ int main()
   {
     i-- ;
     printf("%d\n", i);
-  } while(i>0);
+  } 
+  while(i>0);
   return 0 ;
 }
